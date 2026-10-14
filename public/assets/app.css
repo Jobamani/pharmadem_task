@@ -1,0 +1,22 @@
+body { background: #f4f6f9; }
+
+.stat-card { border: 0; border-left: 4px solid var(--bs-secondary); }
+.stat-card.border-primary { border-left-color: var(--bs-primary); }
+.stat-card.border-success { border-left-color: var(--bs-success); }
+.stat-card.border-warning { border-left-color: var(--bs-warning); }
+.stat-card.border-danger  { border-left-color: var(--bs-danger); }
+.stat-card.border-info    { border-left-color: var(--bs-info); }
+.stat-card .stat-value { font-size: 1.75rem; font-weight: 600; line-height: 1.1; }
+.stat-card .stat-label { color: var(--bs-secondary-color); font-size: .85rem; text-transform: uppercase; letter-spacing: .03em; }
+
+.card { box-shadow: 0 1px 2px rgba(0, 0, 0, .05); }
+.table td, .table th { vertical-align: middle; }
+.table-overdue { --bs-table-bg: #fff1f1; }
+.pre-wrap { white-space: pre-wrap; }
+
+.login-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+
+@media print {
+    body { background: #fff; }
+    .card { box-shadow: none; border: 1px solid #ddd; }
+}
